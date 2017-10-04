@@ -1,0 +1,54 @@
+html, body {
+	margin: 0;
+	padding:0;
+	height: 1080px;
+	width: 1920px;
+	position: relative;
+	overflow: hidden;
+}
+video {
+	height: 100%;
+	width: 100%;
+}
+.a {
+	position: absolute;
+}
+.menu {
+	position: absolute;
+	z-index:10;
+	height: 1080px;
+	width: 1920px;
+	-webkit-transition: all .3s cubic-bezier(.55,0,.1,1);
+}
+.leave {
+	left: 100%;
+}
+.white-circle {
+	position: absolute;
+    left: 50px;
+}
+.round-circle {
+	left: 61px;
+    z-index: 2;
+    top: 12px;
+}
+.arrow {
+	left: 88px;
+    z-index: 2;
+    top: 29px;
+}
+.libby-wrapper {
+	position: relative;
+    left: 594px;
+}
+.buttons {
+	position: relative;
+    top: 958px;
+    left: 807px;
+}
+.libby-bg {
+	background: red;
+}
+.ferdinand-bg {
+	background: blue;
+}
